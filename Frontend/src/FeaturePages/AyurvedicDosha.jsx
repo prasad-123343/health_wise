@@ -25,7 +25,7 @@ const AyurvedicDosha = () => {
             {doshas.map((dosha) => (
               <button
                 key={dosha}
-                onClick={() => setSelectedDosha(dosha)}
+                // onClick={() => setSelectedDosha(dosha)}
                 className={`px-4 py-2 rounded border ${selectedDosha === dosha
                   ? "bg-blue-600 border-blue-600 text-white"
                   : "border-gray-600 text-gray-300 hover:border-white"
@@ -48,6 +48,7 @@ const AyurvedicDosha = () => {
               onClick={() => {
                 // handle skip
                 console.log("Skip Clicked");
+                navigate("/home")
               }}
             >
               Skip

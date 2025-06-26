@@ -28,11 +28,11 @@ const Dashboard = () => {
       icon: PiTreePalm,
       href: "/seasonal-precautions",
     },
-    { name: "Ayurvedic Dosha", icon: TbYinYang , href:"/ayurvedic-dosha"},
+    { name: "Ayurvedic Dosha", icon: TbYinYang, href: "/ayurvedic-dosha" },
     { name: "Health Parameters", icon: VscSettings },
     { name: "Explore Remedies", icon: MdHealthAndSafety, href: "/remedies" },
     { name: "Symptom Analysis", icon: MdOutlineKeyboardVoice },
-    { name: "History", icon: MdHistory },
+    { name: "History", icon: MdHistory, href: '/history' },
     { name: "Help/Support", icon: IoIosHelpCircleOutline },
   ];
 

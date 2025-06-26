@@ -19,6 +19,7 @@ import Remedies from "./FeaturePages/Remedies";
 import AyurvedicDosha from "./FeaturePages/Ayurvedicdosha";
 import DoshaQuiz from "./FeaturePages/DoshaQuiz";
 import DoshaResult from "./FeaturePages/DoshaResult";
+import History from "./FeaturePages/History";
 
 
 const App = () => {
@@ -57,9 +58,10 @@ const App = () => {
             <Route path="/ayurvedic-dosha" element={<AyurvedicDosha />} />
             <Route path="/dosha-quiz" element={<DoshaQuiz />} />
             <Route path="/dosha-result" element={<DoshaResult />} />
+            <Route path="/history" element={<History />} />
 
 
-            
+
 
           </Routes>
         </Router>
